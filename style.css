@@ -1,0 +1,54 @@
+/* GENERALE */
+ul li {
+  display: inline-block;
+  color: #7f310e;
+  background-color: #ffdf7f;
+  border-radius: 10px;
+  padding: 0.5em;
+  text-align: center;
+  margin: auto;
+}
+
+ul {
+  padding: 0;
+}
+
+nav {
+  background-color: #fef7e2;
+}
+
+a {
+  text-decoration: none;
+  color: #7f310e;
+}
+
+nav ul img {
+  width: 30px;
+  height: 30px;
+}
+
+.card {
+  width: 50%;
+}
+
+.card img {
+  width: 100%;
+}
+
+main {
+  display: flex;
+}
+
+.products {
+  display: flex;
+  gap: 20px;
+}
+
+/* MEDIA QUERY DISPOSITIVI */
+@media screen and (min-width: 576px) {
+  nav {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+  }
+}
